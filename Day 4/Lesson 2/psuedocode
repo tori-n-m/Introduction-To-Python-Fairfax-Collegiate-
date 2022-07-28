@@ -1,0 +1,22 @@
+1. CREATE AN ARRAY
+
+2. THIS FOR LOOP IF STATEMENT THING FOR FINDING THE MINIMUM
+int minIndex = startIndex;
+    for(int i = startIndex+1; i < arr.length; i++){
+      if(arr[i] < arr[minIndex]){
+        minIndex = i;
+      }
+    }
+
+3. OTHER THING
+for(int i = 0; i < arr.length; i++){
+    int min = findMin(arr, i);
+    swap(arr,i,min);}
+
+PSUEDO CODE:
+1.create an array
+2.make an algorithm that will sort through the array. it will compare the first number of the array
+to the second and put the lower number in the front. it will continue to do that throughout the entire
+array
+
+
